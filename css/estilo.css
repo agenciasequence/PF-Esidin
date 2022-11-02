@@ -1,71 +1,3 @@
-/* 
-.contenedorInicio {
-
-}
-
-header {
-    background-color: red;
-    grid-area: encabezado;
-    text-align: center;
-}
-
-nav {
-    background-color: yellow;
-    grid-area: nav;
-    text-align: center;
-}
-
-.item {
-    display: inline;
-}
-
-main {
-    background-color: brown;
-    text-align: center;
-    }
-
-li {
-    list-style: none;
-}
-
-img {
-    max-width: 640px;
-}
-
-footer {
-    background-color: black;
-    text-emphasis-color: white;
-    height: 100px;
-    
-}
-
-.sectionTrailers {
-    background-color: blue;
-    align-items: center;
-}
-
-h1 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-h2 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-h3 {
-    color: white;
-    text-align: center;
-}
-
-.estreno {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.claqueta {
-    width: 100px;
-    display: inline;
-} */
-
 .claqueta {
     width: 100px;
     display: inline;
@@ -123,21 +55,7 @@ h3 {
     height: 75%;
 }
 
-/* .costados {
-    position: relative;
-    padding-bottom: 70%;
-    padding-top: 0px;
-    height: 0;
-    overflow: hidden;
-}
- 
-.costados img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-} */
+/* LINKS DE LAS TARJETAS */
 
 a:link {
     text-decoration: none;
