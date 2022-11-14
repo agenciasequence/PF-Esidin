@@ -4,6 +4,12 @@
 
 }
 
+@font-face {
+    font-family: 'Lemonmilk';
+    src: url(../fonts/LEMONMILK-Bold.otf);
+
+}
+
 .claqueta {
     width: 100px;
     display: inline;
@@ -94,11 +100,13 @@ html {
 
 h1 {
     font-size: 10rem;
-    font-family: 'Movieletter';
+    font-family: 'Movieletter', sans-serif;
     
 }
 
 h2 {
-    font-size: 4rem;
+    font-size: 5rem;
+    font-family: 'Lemonmilk', sans-serif;
+    text-align: center;
     
 }
