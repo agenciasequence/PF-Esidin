@@ -1,3 +1,5 @@
+/* TIPOGRAFÍAS NUEVAS */
+
 @font-face {
     font-family: 'Movieletter';
     src: url(../fonts/MovLette.ttf);
@@ -11,7 +13,7 @@
 }
 
 .claqueta {
-    width: 100px;
+    width: 20%;
     display: inline;
 }
 
@@ -92,7 +94,7 @@ a:active { text-decoration: none; }
 }
 
 
-
+/* CAMBIO DE TIPOGRAFÍA */
 
 html {
     font-size: 62.5%;
@@ -110,3 +112,58 @@ h2 {
     text-align: center;
     
 }
+
+h3 {
+font-size: 3rem;
+}
+
+.navP {
+    font-size: 2rem;
+    font-family: 'Lemonmilk', sans-serif;
+}
+
+.navP:hover {
+    color: gray;
+}
+
+.nosotros {
+    background-color: #212529;
+    height:auto;
+    width: 30%;
+    margin:auto;
+    margin-top: 1rem;
+    
+}
+
+.nosotros h3 {
+    font-family: 'Lemonmilk';
+    color: white;
+    text-align: center;
+}
+
+.nosotros h4 {
+    font-family: 'Lemonmilk', Times, serif;
+    color: white;
+    text-align: center;
+}
+
+.nosotros h5 {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-align: center;
+    font-size:x-large;
+    margin-top: 5%;
+}
+
+
+.nosotros img {
+    margin-left: 35%;
+    width: 35%;
+}
+
+.textoNosotros {
+    margin-top: 5rem;
+}
+
+
+
