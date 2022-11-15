@@ -1,0 +1,47 @@
+//VARIABLES
+$vidmax: 420px;
+
+// PERSONALIZACIÓN DE BOTONES
+
+
+
+.botones {
+    width: 40%;
+}
+
+.botones:hover {
+    color: white;
+}
+
+/* ESTO DE ABAJO HACE QUE LOS VIDEOS SEAN RESPONSIVE */
+
+.videoContenedor {
+    position: relative;
+    padding-bottom: 70%;
+    padding-top: 0px;
+    height: 0;
+    overflow: hidden;
+  
+    iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  
+    position: relative;
+    padding-bottom: 70%;
+    padding-top: 0px;
+    height: 0;
+    overflow: hidden;
+  }
+
+  .trailer {
+    max-width: $vidmax;
+  }

@@ -1,0 +1,32 @@
+.nosotros {
+    background-color: $grisoscuro;
+    height: auto;
+    width: 30%;
+    margin: auto;
+    margin-top: 1rem;
+  
+    h3 {
+      @include textNosotros;
+    }
+  
+    h4 {
+    @include textNosotros;
+    }
+  
+    h5 {
+      font-family: 'Times New Roman', Times, serif;
+      color: white;
+      text-align: center;
+      font-size: x-large;
+      margin-top: 5%;
+    }
+  
+    img {
+      margin-left: 35%;
+      width: 35%;
+    }
+  }
+  
+  .textoNosotros {
+    margin-top: 5rem;
+  }

@@ -3,9 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Hugo 0.104.2">
+    <meta name="description" content="Movienews es el sitio de películas donde encontrarás los últimos trailers, noticias y estrenos">
+    <meta name="keywords" content="películas, series, trailers, noticias, estrenos">
     <title>Movienews</title>
     <link rel="shortcut icon" href="img/Claqueta.png" type="image/x-icon">
 
@@ -133,11 +132,11 @@
   
    <div id="carouselExampleDark" class="carousel carousel-dark slide"  data-bs-ride="carousel">
        <div class="carousel-indicators">
-         <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-         <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-         <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
        </div>
-       <div class="carousel-inner mx-auto">
+       <div class="carousel-inner">
          <div class="carousel-item active"  data-bs-interval="10000">
            <div class="videoContenedor">
            <iframe width="560" height="315" src="https://www.youtube.com/embed/kV9fT7AA8Lw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -164,13 +163,13 @@
          </div>
        </div>
        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-         <span class="visually-hidden">Previous</span>
-       </button>
-       <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-         <span class="carousegitl-control-next-icon" aria-hidden="true"></span>
-         <span class="visually-hidden">Next</span>
-       </button>
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span><img class="botones" src="img/izq.png" alt="izquierda"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span ><img class="botones" src="img/der.png" alt="derecha"></span>
+      </button>
      </div>
    </div>
      <div class="col costados">
@@ -288,7 +287,7 @@
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-      AOS.init();
+      setTimeout(function () { AOS.init(); }, 300);
     </script> 
   </body>
 </html>
