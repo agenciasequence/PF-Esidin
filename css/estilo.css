@@ -165,5 +165,8 @@ font-size: 3rem;
     margin-top: 5rem;
 }
 
+.card img {
+    max-height: 600px;
+}
 
 
